@@ -1,0 +1,7 @@
+node_modules
+packages/*/lib
+packages/*/legacy/dist
+.vscode
+.DS_Store
+static/
+storybook-static/
