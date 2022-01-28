@@ -14,7 +14,7 @@
   "scripts": {
     "sb": "start-storybook -p 6006",
     "build": "rimraf build/* && rollup -c",
-    "build:sb": "build-storybook -c .storybook -o static"
+    "build:sb": "build-storybook -c .storybook -o docs"
   },
   "peerDependencies": {
     "react": "^16.13.1",
