@@ -7,7 +7,7 @@ export interface TextViewProps {
 
 const TextView = ({ children }: TextViewProps) => {
   return <div className='text-view'>
-    {children}
+            {children}
   </div>
 }
 
