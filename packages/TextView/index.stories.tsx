@@ -6,7 +6,5 @@ export default {
 };
 
 export const WithTextView = () => (
-  <TextView>
-    This is my test component
-  </TextView>
+  <TextView>This is my test component</TextView>
 );

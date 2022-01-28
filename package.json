@@ -12,6 +12,7 @@
   ],
   "types": "build/index.d.ts",
   "scripts": {
+    "prettier": "prettier --write 'packages/**/*.{ts,tsx,less}'",
     "_____comment": "npm run git -- 'commit-msg'  so you can push and update by a auto way",
     "git": "git add . && git commit -m",
     "postgit": "npm run build && npm version patch && npm publish && git push",
