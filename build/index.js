@@ -11,7 +11,7 @@ var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 var TextView = function TextView(_a) {
   var children = _a.children;
   return /*#__PURE__*/React__default["default"].createElement("div", {
-    className: 'text-view'
+    className: "text-view"
   }, children);
 };
 

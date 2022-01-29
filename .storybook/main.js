@@ -3,9 +3,9 @@ const path = require("path");
 
 module.exports = {
   // storybook文档的目标文件
-  stories: ["../packages/**/*.stories.tsx"],
+  stories: ["../packages/**/*.stories.(tsx|mdx)"],
   // 插件依赖，后面我们会使用
-  addons: [],
+  addons: ['@storybook/addon-knobs', '@storybook/addon-docs'],
   webpackFinal: async (config) => {
     config.module.rules.push({
       test: /\.less$/,

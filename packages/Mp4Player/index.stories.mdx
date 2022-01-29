@@ -1,0 +1,35 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import Mp4Player from "./index.tsx";
+
+<Meta title="MDX/Mp4Player" component={Mp4Player} />
+
+## Mp4Player
+
+### Markdown原功能
+
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+
+一级标题
+=================
+二级标题
+-----------------
+
+### 基础使用如下
+
+<Canvas>
+  <Story name="Mp4Player">
+    <Mp4Player
+      controls={true}
+      autoPlay={false}
+      url="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo-720p.mp4"
+      style={{
+        width: "100%",
+      }}
+    />
+  </Story>
+</Canvas>
